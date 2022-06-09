@@ -9,6 +9,40 @@ import tailwindImage from '../../assets/tailwind_image.png';
 const About = () => {
     return (
         <section className="">
+            <div className="hero min-h-screen bg-cover bg-no-repeat bg-center" style={{}}>
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className='w-full lg:w-1/2'>
+                        <div className='flex items-center p-10 border-2 bg-red-200 border-sky-300'>
+                            <span className='text-xl lg:text-5xl'>👋</span>
+                            <div className=' text-right'>
+                                <p className='text-sm lg:text-xl'>Hello, I am</p>
+                                <h1 className='text-xl lg:text-5xl font-bold'>MD KAMRUZZAMAN</h1>
+                            </div>
+                        </div>
+                        <div className='mt-5 p-6 border-2 bg-red-200 border-sky-300 text-right'>
+                            <h1 className='text-xl'>JONIOR WEB DEVELOPER</h1>
+                            <h1 className='text-xl'>LOOKING FOR JOBS</h1>
+                        </div>
+                        <div className='mt-5'>
+                            <button className="btn btn-primary uppercase text-white font-bold">contact me</button>
+                            <button className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
+                        </div>
+                    </div>
+                    <div className='w-full file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl'>
+                        <img width={400} src={profilePhoto} className="" alt='zaman profile pic' />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default About;
+
+
+
+
+/* 
             <div className='min-h-screen grid grid-cols-2 gap-4'>
                 <div className='justify-self-center self-center	'>
                     <img width={400} src={profilePhoto} alt="" />
@@ -27,45 +61,10 @@ const About = () => {
                         <h1 className='text-xl'>LOOKING FOR JOBS</h1>
                     </span>
                     <div className=''>
-                        <button class="btn btn-error mr-10">Resume</button>
-                        <button class="btn btn-outline  btn-primary">Contact Me</button>
+                        <button class="btn btn-outline btn-error mr-5 font-bold">My Resume</button>
+                        <button class="btn btn-outline  btn-primary font-bold">Contact Me</button>
                     </div>
                 </div>
             </div>
-        </section>
-    );
-};
-
-export default About;
-
-
-
-
-/* 
-                <div className=''>
-                    <div className='flex items-center p-10 border-2 border-sky-300'>
-                        <span className='text-5xl'>👋</span>
-                        <div className=' text-right'>
-                            <p className='text-xl'>Hello, I am</p>
-                            <h1 className='text-5xl font-bold'>MD KAMRUZZAMAN</h1>
-                        </div>
-                    </div>
-                    <div className='my-10 p-6 border-2 border-sky-300 text-right'>
-                        <h1 className='text-xl'>JONIOR WEB DEVELOPER</h1>
-                        <h1 className='text-xl'>LOONING FOR JOBS</h1>
-                    </div>
-                </div>
-                <div className='self-end'>
-                    <img width={400} src={profilePhoto} alt="" />
-                </div>
-                <div>
-                    <img width={120} className='p-4 border-2 rounded-full shadow-lg bg-slate-200 m-10 ' src={tailwindImage} alt="" />
-                    <div className='flex flex-shrink-0'>
-                        <img width={120} className='p-4 border-2 rounded-full shadow-lg bg-slate-200 m-10 ' src={reactImage} alt="" />
-                        <img width={180} className='p-4 border-2 rounded-full shadow-lg bg-slate-200 m-10 ' src={jsImage} alt="" />
-                    </div>
-                    <img width={120} className='p-4 border-2 rounded-full shadow-lg bg-slate-200 m-10 ' src={cssImage} alt="" />
-                    <img width={150} className='p-4 border-2 rounded-full shadow-lg bg-slate-200 m-10 ' src={htmlImage} alt="" />
-                </div>
-
+                
 */
