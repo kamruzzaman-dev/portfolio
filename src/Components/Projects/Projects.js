@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div>
-            this is navbar
+            this this is project pages
         </div>
     );
 };
