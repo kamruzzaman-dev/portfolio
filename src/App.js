@@ -10,9 +10,10 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/ContactMe/ContactMe'
 function App() {
   return (
-    <>
+    <div className='max-w-8xl mx-auto'>
       <Navbar>
         <Routes>
+          <Route path='/home' element={<About />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/project' element={<Projects />}></Route>
           <Route path='/skills' element={<Skills />}></Route>
@@ -20,10 +21,10 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='*' element={<PageNotFounded />}></Route>
         </Routes>
+        <Footer />
       </Navbar>
-      <Footer />
 
-    </>
+    </div>
   );
 }
 
