@@ -32,7 +32,7 @@ const About = () => {
                             <button onClick={()=>{window.open("https://drive.google.com/file/d/1yhrsJpWfAiYCfTUExa0PBsTWI1kVD6QN/view?usp=sharing", "_blank")}} className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
                         </div>
                     </div>
-                    <div className='w-full file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl'>
+                    <div className='w-full mask mask-circle file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl'>
                         <img width={400} src={profilePhoto} className="" alt='zaman profile pic' />
                     </div>
                 </div>
