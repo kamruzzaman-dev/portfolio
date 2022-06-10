@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Project from './Project';
+import ProjectOnModal from './ProjectOnModal';
 
 const Projects = () => {
     /* DATA STORE AND CALL  */
@@ -8,6 +9,7 @@ const Projects = () => {
     const [searchType, setSearchType] = useState('all');
     const [projects, setProjects] = useState([]);
     const [showigListOfProject, setShowingListPfProject] = useState([]);
+    const [showigDetailsProject, setShowigDetailsProject] = useState(null);
     useEffect(() => {
         setLoadingPage(true);
         fetch('projects.json')
@@ -62,7 +64,13 @@ const Projects = () => {
             <div className='mt-14 p-8 border-2 border-red-300 mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16 gap-5'>
                     {
-                        showigListOfProject.map(pro => <Project project={pro} key={pro.id}></Project>)
+                        showigListOfProject.map(pro => <Project project={pro} setShowigDetailsProject={setShowigDetailsProject} key={pro.id}></Project>)
+                    }
+                    {
+                        showigDetailsProject && <ProjectOnModal
+                        showigDetailsProject={showigDetailsProject}
+                        setShowigDetailsProject={setShowigDetailsProject}
+                        ></ProjectOnModal>
                     }
                 </div>
             </div>

@@ -2,11 +2,8 @@ import { type } from '@testing-library/user-event/dist/type';
 import React from 'react';
 import './project.css';
 
-const Project = ({ project }) => {
-    const forOpenModal = () => {
-        console.log('data structure');
-    }
-    const { about, name, date, Type, image1 } = project;
+const Project = ({ project,setShowigDetailsProject }) => {
+    const { about, name, date, Type, image1,id } = project;
     return (
         <div class="card bg-base-100 shadow-xl items-start px-4 pt-10 ">
             <figure class="card-header card-image">
@@ -16,9 +13,10 @@ const Project = ({ project }) => {
             <div class="card-body">
                 <h2 class="card-title text-center">{name}</h2>
                 {/* <h1>{Type}</h1> */}
+                <p>{id}</p>
                 <p>{about}</p>
                 <p>{date}</p>
-                <button onClick={forOpenModal} className='btn btn-error'>show more deatils</button>
+                <label onClick={()=>setShowigDetailsProject(id)} for="ModalDeatilsShowingTigger" class="btn btn-error modal-button">show more deatils</label>
             </div>
         </div>
     );
