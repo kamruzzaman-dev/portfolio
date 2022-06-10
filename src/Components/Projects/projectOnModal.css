@@ -3,6 +3,16 @@
     height: 80%;
 }
 
+.modal-card-area{
+    height: 60%;
+    background: red;
+}
+
+.modal-carousel-area{
+    background-color: blue;
+}
+
+
 @media only screen and (max-width: 600px){
 	.modal-area{
         width: 100%;

@@ -16,7 +16,7 @@ const ContactMe = () => {
                 <div class="hero-content text-center text-neutral-content flex flex-col justify-center items-center py-20 px-3">
                     <div className=' mb-14'>
                         <h3 className='text-xl font-blod uppercase text-primary text-center'>Contact Me</h3>
-                        <p className='text-5xl text-center'>Add Your Valueable Information</p>
+                        <p className='text-5xl text-center'>Add Your Valueable Comment</p>
                     </div>
                     <div className='flex flex-col w-full'>
                         <input type="text" placeholder="Your Name" className="my-2 input input-bordered input-success w-full max-w-full" />

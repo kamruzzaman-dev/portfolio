@@ -16,7 +16,7 @@ const Project = ({ project,setShowigDetailsProject }) => {
                 <p>{id}</p>
                 <p>{about}</p>
                 <p>{date}</p>
-                <label onClick={()=>setShowigDetailsProject(id)} for="ModalDeatilsShowingTigger" class="btn btn-error modal-button">show more deatils</label>
+                <label onClick={()=>setShowigDetailsProject(project)} for="ModalDeatilsShowingTigger" class="btn btn-error modal-button">show more deatils</label>
             </div>
         </div>
     );
