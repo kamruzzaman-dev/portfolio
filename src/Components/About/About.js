@@ -13,7 +13,7 @@ const About = () => {
       };
    return (
         <section className="">
-            <div className="hero min-h-screen bg-cover bg-no-repeat bg-center" style={{}}>
+            <div className="hero min-h-screen bg-cover bg-no-repeat bg-center border-2 border-red-500" style={{}}>
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className='w-full lg:w-1/2'>
                         <div className='flex items-center p-10 border-2 bg-red-200 border-sky-300'>
