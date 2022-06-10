@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{Link} from 'react';
 import './About.css';
 import profilePhoto from '../../assets/profile_photo.png';
 import reactImage from '../../assets/react_image.png';
@@ -7,7 +7,11 @@ import cssImage from '../../assets/css_image.png';
 import htmlImage from '../../assets/html _image.png';
 import tailwindImage from '../../assets/tailwind_image.png';
 const About = () => {
-    return (
+    const handleClick = () => {
+        console.log('i am clicked');
+        
+      };
+   return (
         <section className="">
             <div className="hero min-h-screen bg-cover bg-no-repeat bg-center" style={{}}>
                 <div className="hero-content flex-col lg:flex-row-reverse">
@@ -25,7 +29,7 @@ const About = () => {
                         </div>
                         <div className='mt-5'>
                             <button className="btn btn-primary uppercase text-white font-bold">contact me</button>
-                            <button className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
+                            <button onClick={()=>{window.open("https://drive.google.com/file/d/1yhrsJpWfAiYCfTUExa0PBsTWI1kVD6QN/view?usp=sharing", "_blank")}} className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
                         </div>
                     </div>
                     <div className='w-full file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl'>
