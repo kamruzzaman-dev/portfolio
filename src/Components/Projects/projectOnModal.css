@@ -1,0 +1,10 @@
+.modal-area{
+    width: 60%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 600px){
+	.modal-area{
+        width: 100%;
+    }
+}

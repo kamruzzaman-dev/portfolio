@@ -1,15 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './projectOnModal.css';
 
-const ProjectOnModal = ({showigDetailsProject, setShowigDetailsProject}) => {
+const ProjectOnModal = ({ showigDetailsProject, setShowigDetailsProject }) => {
     return (
         <>
             <input type="checkbox" id="ModalDeatilsShowingTigger" class="modal-toggle" />
             <div class="modal modal-bottom sm:modal-middle">
-                <div class="modal-box">
-                    <h3 class="font-bold text-lg">Congratulations random Interner user!{showigDetailsProject}</h3>
-                    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-                    <div class="modal-action">
-                        <label for="ModalDeatilsShowingTigger" class="btn">Yay!</label>
+                <div class="modal-area relative bg-slate-300" >
+                   
+                    {/* modal closed button */}
+                    <div class="modal-action absolute right-0 bottom-0 p-4">
+                        <label for="ModalDeatilsShowingTigger" class="btn">Close!</label>
                     </div>
                 </div>
             </div>
