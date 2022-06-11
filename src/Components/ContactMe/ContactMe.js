@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react';
 import contactBGI from '../../assets/undraw_term_sheet_re_ju7s.svg';
-import Project from '../Projects/Project';
 const ContactMe = () => {
 
     return (
