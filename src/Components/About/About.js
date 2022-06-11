@@ -14,7 +14,7 @@ const About = () => {
         
       };
    return (
-        <section className="p-2 lg:p-10 bg-slate-200 card shadow-lg my-16 mx-4 lg:my-24 lg:mx-10 about-container">
+        <section className="p-2 lg:p-10 bg-slate-200 card shadow-lg my-16 mx-4 lg:mx-10 about-container">
             <Intro/>
             <Skills/>
         </section>
