@@ -38,8 +38,8 @@ const Projects = () => {
 
 
     return (
-        <div className='min-h-screen border-2 border-red-400'>
-            <p className='mt-20 text-xl text-center'>showcasing some of my my best work</p>
+        <div className='min-h-screen '>
+            <p className='mt-10 text-xl text-center'>showcasing some of my my best work</p>
             <h1 className='mt-5 text-3xl font-bold text-center'>My <span className='text-red-500'>Portfolio</span></h1>
 
             {/* navbar section */}
@@ -61,7 +61,7 @@ const Projects = () => {
 
                 </div>
             </div>
-            <div className='mt-14 p-8 border-2 border-red-300 mx-auto'>
+            <div className='mt-1 py-0 px-8  mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16 gap-5'>
                     {
                         showigListOfProject.map(pro => <Project project={pro} setShowigDetailsProject={setShowigDetailsProject} key={pro.id}></Project>)

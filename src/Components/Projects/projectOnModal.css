@@ -108,3 +108,11 @@
   .carousel-button.next {
     right: 1rem;
   }
+
+
+
+
+  /* li pointing  */
+  ul.liPoint{
+    list-style-type: square;
+  }

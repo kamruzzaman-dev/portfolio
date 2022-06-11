@@ -3,46 +3,97 @@
         "id": "625bb63476adsads",
         "index": 0,
         "isActive": true,
-        "live_link": "",
-        "code_link": "",
+        "live_link": "https://tools-yebenling.web.app/",
+        "code_link": "https://github.com/YeBenLing-ZAMAN/manufacturer-website-client-site",
         "image1": "https://i.ibb.co/8rxBr9y/1.jpg",
         "image2": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "image3": "https://source.unsplash.com/xXofYCc3hqc",
         "image4": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "name": "doctor appointment",
-        "Type": "react",
-        "about": "for doctor and partent appointment system management"
+        "Type": "React & Express",
+        "about": "for doctor and partent appointment system management",
+        "describe": [
+            "Admin and customers can access different routes. Social login is implemented with firebase.",
+            "After signup, a customer will be needing their JWT token, with this token customers can order a bunch of products at once, pay with an international card (stripe), do reviews and edit if necessary, and also keep their profile updated.",
+            "An admin manages orders, changes shipping status, deletes orders, updates user status, and removes things not deemed necessary. Every function is handled on dashboard which is implemented by react router v6 (Outlet)"
+        ],
+        "technology": [
+            "React",
+            "React Router",
+            "React Tailwind",
+            "React DasiUI",
+            "React Hook Form",
+            "FireBase authencation",
+            "React FireBase Hooks",
+            "React Tostify",
+            "React Qurey",
+            "React Axios"
+        ]
     },
     {
         "id": "62576da2f8955c7804e",
         "index": 0,
         "guid": "cb684e8f-fbd9-4c47-93cb-6d0511e56b0d",
         "isActive": true,
-        "live_link": "",
-        "code_link": "",
+        "live_link": "#",
+        "code_link": "#",
         "image1": "https://source.unsplash.com/xXofYCc3hqc",
         "image2": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "image3": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "image4": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "name": "warehouse management",
-        "Type": "react",
+        "Type": "React & Express",
         "about": "ware house tools management system.",
-        "date": "7 march, 2022"
+        "date": "7 march, 2022",
+        "describe": [
+            "Admin and customers can access different routes. Social login is implemented with firebase.",
+            "After signup, a customer will be needing their JWT token, with this token customers can order a bunch of products at once, pay with an international card (stripe), do reviews and edit if necessary, and also keep their profile updated.",
+            "An admin manages orders, changes shipping status, deletes orders, updates user status, and removes things not deemed necessary. Every function is handled on dashboard which is implemented by react router v6 (Outlet)"
+        ],
+        "technology": [
+            "React",
+            "React Router",
+            "React Tailwind",
+            "React DasiUI",
+            "React Hook Form",
+            "FireBase authencation",
+            "React FireBase Hooks",
+            "React Tostify",
+            "React Qurey",
+            "React Axios"
+        ]
     },
     {
         "id": "625bb63476da2f895",
         "index": 0,
         "guid": "cb684e8f-fbd9-4c47-93cb-6d0511e56b0d",
         "isActive": true,
-        "live_link": "",
-        "code_link": "",
+        "live_link": "#",
+        "code_link": "#",
         "image1": "https://source.unsplash.com/sHfo3WOgGTU",
         "image2": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "image3": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "image4": "https://i.ibb.co/Hhk6RZw/11.jpg",
         "name": "Chose Randomly",
-        "Type": "logic",
+        "Type": "React",
         "about": "chosse a keycap with radomly.",
-        "date": "7 march, 2022"
+        "date": "7 march, 2022",
+        "describe": [
+            "Admin and customers can access different routes. Social login is implemented with firebase.",
+            "After signup, a customer will be needing their JWT token, with this token customers can order a bunch of products at once, pay with an international card (stripe), do reviews and edit if necessary, and also keep their profile updated.",
+            "An admin manages orders, changes shipping status, deletes orders, updates user status, and removes things not deemed necessary. Every function is handled on dashboard which is implemented by react router v6 (Outlet)"
+        ],
+        "technology": [
+            "React",
+            "React Router",
+            "React Tailwind",
+            "React DasiUI",
+            "React Hook Form",
+            "FireBase authencation",
+            "React FireBase Hooks",
+            "React Tostify",
+            "React Qurey",
+            "React Axios"
+        ]
     }
 ]
