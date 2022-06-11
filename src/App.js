@@ -8,13 +8,14 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/ContactMe/ContactMe'
+import Bannar from './Components/Bannar/Bannar';
 function App() {
   return (
     <div className='max-w-7xl mx-auto'>
       <Navbar />
       <Routes>
-        <Route path='/' element={<About />}></Route>
-        <Route path='/home' element={<About />}></Route>
+        <Route path='/' element={<Bannar />}></Route>
+        <Route path='/home' element={<Bannar />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/project' element={<Projects />}></Route>
         <Route path='/skills' element={<Skills />}></Route>

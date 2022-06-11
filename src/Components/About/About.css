@@ -1,0 +1,30 @@
+.about-container {
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* width */
+.about-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.about-container::-webkit-scrollbar-track {
+    /* background: #ed7d7d; */
+    /* border-radius: 100vw; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Handle */
+.about-container::-webkit-scrollbar-thumb {
+    background: rgb(241, 12, 12);
+    height: 50px;
+    border-radius: 100px;
+}
+
+/* Handle on hover */
+.about-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(231, 137, 137);
+}

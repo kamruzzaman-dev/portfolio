@@ -8,7 +8,7 @@ const Skills = () => {
             <div className='p-5'>
                 <h4 className='text-center'>My Level of Knowledge in some techonology</h4>
                 <h1 className='text-6xl text-center font-bold'>My Skills</h1>
-                <hr className='my-4' />
+                <hr className='my-5 bg-red-500 h-1' />
             </div>
 
             <div className="hero bg-cover bg-no-repeat bg-center">
@@ -63,6 +63,12 @@ const Skills = () => {
                                 <div class="skill-name">MongoDB</div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="40%" style={{ 'maxWidth': '40%' }}></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">git and github</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="60%" style={{ 'maxWidth': '60%' }}></div>
                                 </div>
                             </div>
                         </div>
