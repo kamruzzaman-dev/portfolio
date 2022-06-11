@@ -9,7 +9,7 @@
     aspect-ratio: 16 / 9;
     object-fit: cover;
     object-position: center;
-    transition: 800ms transform ease-in-out;
+    transition: 1200ms transform ease-in-out;
 }
 
 .card:hover > .service-card-header.service-card-image > img {

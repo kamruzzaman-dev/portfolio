@@ -1,20 +1,29 @@
-.modal-area{
+.modal-area {
     width: 60%;
     height: 80%;
 }
 
-.modal-card-area{
+.modal-card-area {
     height: 60%;
     background: red;
 }
 
-.modal-carousel-area{
+.modal-carousel-area {
     background-color: blue;
 }
 
 
-@media only screen and (max-width: 600px){
-	.modal-area{
+@media only screen and (max-width: 600px) {
+    .modal-area {
         width: 100%;
     }
+}
+
+.close-button {
+    position: fixed;
+    bottom: 0;
+}
+
+.close-botton-parent {
+    position: relative;
 }
