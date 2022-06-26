@@ -51,7 +51,7 @@ const Bannar = () => {
                         </div>
                         <div className='mt-5'>
                             <Link to='/contact' className="btn btn-primary uppercase text-white font-bold">contact me</Link>
-                            <button onClick={() => { window.open("https://drive.google.com/file/d/1yhrsJpWfAiYCfTUExa0PBsTWI1kVD6QN/view?usp=sharing", "_blank") }} className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
+                            <button onClick={() => { window.open("https://docs.google.com/document/d/1YOyoVuLzRRuzm1DFas-bcdznrCgJqOqI/edit?usp=sharing&ouid=104086493026586641626&rtpof=true&sd=true", "_blank") }} className="btn btn-error ml-4 uppercase text-white font-bold">resume</button>
                         </div>
                     </div>
                     <div className='w-full mask mask-circle file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl'>

@@ -16,7 +16,7 @@ const Intro = () => {
                 <div className='w-full lg:w-1/2'>
                     <h1 class="text-xl font-bold">Hello!</h1>
                     <h1 class="text-5xl font-bold">This is Md. Kamruzzaman!</h1>
-                    <p class="py-6 text-xl font-bold text-red-400">I love to write code, it's my passoin and job. I am here to help you, I am her to develop your Web Application.</p>
+                    <p class="py-6 text-xl font-bold text-red-400">I love to write code, it's my passoin and job. I am here to help you, I am here to develop your Web Application.</p>
                     <h1 class="text-3xl font-bold">Personal Informations</h1>
                     <div className='p-4 flex flex-col md:flex-row justify-between w-full'>
                         <div className=''>
@@ -28,12 +28,10 @@ const Intro = () => {
                         <div className='mt-6 lg:mt-0'>
                             <p>E-Mail: kamruzzaman.md@hotmail.com</p>
                             <p>phone: +8801949016701</p>
-                            <p>Linkedind: linkedin/.....</p>
-                            <p>GitHub: ................</p>
                         </div>
                     </div>
                     <div className='flex justify-center lg:justify-start my-4 lg:mt-0'>
-                        <button className='btn btn-error font-bold text-white'>Resume</button>
+                        <button onClick={() => { window.open("https://docs.google.com/document/d/1YOyoVuLzRRuzm1DFas-bcdznrCgJqOqI/edit?usp=sharing&ouid=104086493026586641626&rtpof=true&sd=true", "_blank") }} className='btn btn-error font-bold text-white'>Resume</button>
                     </div>
                     <div class=" p-6 flex justify-center">
                         <p onClick={() => { window.open("https://github.com/YeBenLing-ZAMAN", "_blank") }} className='px-3 hover:text-red-600 cursor-pointer'><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
