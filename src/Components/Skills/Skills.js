@@ -68,7 +68,7 @@ const Skills = () => {
                             <div class="skill">
                                 <div class="skill-name">git and github</div>
                                 <div class="skill-bar">
-                                    <div class="skill-per" per="60%" style={{ 'maxWidth': '60%' }}></div>
+                                    <div class="skill-per" per="35%" style={{ 'maxWidth': '35%' }}></div>
                                 </div>
                             </div>
                         </div>

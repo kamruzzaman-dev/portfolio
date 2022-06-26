@@ -14,7 +14,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="navbar bg-base-100 sticky top-0 z-10">
+        <div className="navbar bg-base-100 sticky top-0 z-10 border-b-4 border-red-500  ">
             <div className="navbar flex justify-between	">
                 <Link to='/' className="btn btn-ghost">
                     <img width={70} src={logo} alt="" />

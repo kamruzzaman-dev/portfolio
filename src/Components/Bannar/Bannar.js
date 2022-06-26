@@ -38,14 +38,14 @@ const Bannar = () => {
                         <img src={mongodb} alt="" />
                     </div>
                     <div className='w-full lg:w-1/2'>
-                        <div className='flex items-center p-10 border-2 bg-red-200 border-sky-300'>
+                        <div className='flex items-center p-10 border-2 bg-red-200 border-slate-300'>
                             <span className='text-xl lg:text-5xl'>👋</span>
-                            <div className=' text-right'>
+                            <div className=' text-right '>
                                 <p className='text-sm lg:text-xl'>Hello, I am</p>
                                 <h1 className='text-xl lg:text-5xl font-bold'>MD KAMRUZZAMAN</h1>
                             </div>
                         </div>
-                        <div className='mt-5 p-6 border-2 bg-red-200 border-sky-300 text-right'>
+                        <div className='mt-5 p-6  text-right border-2 bg-red-200 border-slate-300'>
                             <h1 className='text-xl'>JONIOR WEB DEVELOPER</h1>
                             <h1 className='text-xl'>LOOKING FOR JOBS</h1>
                         </div>
