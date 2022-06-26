@@ -4,6 +4,7 @@ import './project.css';
 
 const Project = ({ project,setShowigDetailsProject }) => {
     const { about, name, date, Type, image1,id } = project;
+    // console.log(project);
     return (
         <div class="card bg-base-100 shadow-xl items-start px-4 pt-10 ">
             <figure class="card-header card-image">

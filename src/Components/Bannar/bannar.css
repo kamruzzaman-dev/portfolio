@@ -1,0 +1,77 @@
+.react-icon {
+  top: 5rem;
+  right: 5rem;
+  padding: 1.4rem 1.4rem;
+  background-color: rgba(183, 239, 243, 0.459);
+}
+
+.js-icon {
+  top: 6rem;
+  right: 12rem;
+  padding: 1.4rem 1.4rem;
+  background-color: rgba(242, 239, 157, 0.538);
+}
+
+.css-icon {
+  top: 2rem;
+  right: 20rem;
+  padding: 1.5rem 2rem;
+  background-color: rgba(157, 242, 221, 0.474);
+}
+
+.html-icon {
+  bottom: 10rem;
+  right: 10rem;
+  z-index: 2;
+  padding: 1.5rem 2rem;
+  background-color: rgba(242, 157, 171, 0.592);
+}
+
+.tailwind-icon {
+  bottom: 5rem;
+  left: 24rem;
+  z-index: 2;
+  padding: 1.5rem 2rem;
+  background-color: rgba(157, 225, 242, 0.592);
+}
+.bootstrap-icon{
+  top: 3rem;
+  left: 10rem;
+  z-index: 2;
+  padding: .5rem .5rem;
+  background-color: rgba(102, 183, 237, 0.499);
+}
+.mongodb-icon{
+  bottom: 15rem;
+  left: 4rem;
+  z-index: 2;
+  padding: 2rem 2rem;
+  background-color: rgba(102, 237, 156, 0.499);
+}
+
+.items-icon {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 54% 46% 58% 42% / 62% 43% 57% 38%;
+  animation: water-wave 3s linear infinite;
+}
+
+@keyframes water-wave {
+  0% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+
+  50% {
+    border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+  }
+
+  100% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .items-icon {
+    display: none;
+  }
+}

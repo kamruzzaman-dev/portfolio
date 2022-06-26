@@ -39,7 +39,7 @@ const Projects = () => {
 
     return (
         <div className='min-h-screen '>
-            <p className='mt-10 text-xl text-center'>showcasing some of my my best work</p>
+            <p className='mt-10 text-xl text-center'>showcasing some of my best work</p>
             <h1 className='mt-5 text-3xl font-bold text-center'>My <span className='text-red-500'>Portfolio</span></h1>
 
             {/* navbar section */}

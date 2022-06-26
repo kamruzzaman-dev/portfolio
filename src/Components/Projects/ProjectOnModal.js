@@ -5,7 +5,7 @@ import profilePhoto from '../../assets/profile_photo.png';
 
 const ProjectOnModal = ({ showigDetailsProject, setShowigDetailsProject }) => {
     // console.log(showigDetailsProject);
-    const { id, name, image1, image2, image3, image4, about, describe, technology, code_link,live_link } = showigDetailsProject;
+    const { id, name, image1, image2, image3, image4, about, describe, technology, code_link, live_link } = showigDetailsProject;
 
 
     // const images = [
@@ -54,53 +54,55 @@ const ProjectOnModal = ({ showigDetailsProject, setShowigDetailsProject }) => {
                 <div class="modal-area relative about-container border-2 border-red-400 card hero bg-slate-200" >
                     {/* modal content */}
 
-                    <div className="hero-content flex-col lg:flex-row-reverse ">
+                    <div className='main-container-div'>
+                        <div className="hero-content flex-col lg:flex-row-reverse ">
 
-                        <div className='details-card-div details-card-image '>
-                            <img id='silderImage' width={400} src={image1} className="" alt='zaman profile pic' />
-                        </div>
-                        {/* <section aria-label="Newest">
-                            <div class="carousel" data-carousel>
-                                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-                                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-                                <ul data-slides>
-                                    <li class="slide Photos details-card-div details-card-image" data-active>
-                                    <img src={image1} alt="Nature Image #1" />
-                                    </li>
-                                    <li class="slide Photos details-card-div details-card-image">
-                                    <img src={image2} alt="Nature Image #2" />
-                                    </li>
-                                    <li class="slide Photos details-card-div details-card-image">
-                                        <img src={image3} alt="Nature Image #3" />
-                                    </li>
-                                </ul>
-                                </div>
-                            </section> */}
-
-
-
-                        <div className='w-full lg:w-1/2 '>
-                            <h1 class="text-3xl font-bold capitalize">{name}!</h1>
-                            <h1 class="text-2xl my-6 font-bold">Details Describe</h1>
-                            <ul className='liPoint px-4 lg:px-0'>
-                                {
-                                    describe.map(des => <li className='mt-1'>{des}</li>)
-                                }
-                            </ul>
-                            <h1 class="text-2xl my-6 font-bold">Tools & Technology:</h1>
-                            <ul className='liPoint'>
-                                {
-                                    // technology.map(tech => <li className='mt-1'>{tech}</li>)
-                                }
-                            </ul>
-
-                            <div className='flex justify-start my-4 lg:mt-16'>
-                                <button onClick={()=>{window.open(live_link, "_blank")}}  className='btn btn-outline btn-error font-bold hover:text-white mr-4'>live site</button>
-                                <button onClick={()=>{window.open(code_link, "_blank")}} className='btn btn-outline btn-success font-bold text-white'>Code link</button>
+                            <div className='details-card-div details-card-image '>
+                                <img id='silderImage' width={400} src={image1} className="" alt='zaman profile pic' />
                             </div>
+                            {/* <section aria-label="Newest">
+                                <div class="carousel" data-carousel>
+                                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                                    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                                    <ul data-slides>
+                                        <li class="slide Photos details-card-div details-card-image" data-active>
+                                        <img src={image1} alt="Nature Image #1" />
+                                        </li>
+                                        <li class="slide Photos details-card-div details-card-image">
+                                        <img src={image2} alt="Nature Image #2" />
+                                        </li>
+                                        <li class="slide Photos details-card-div details-card-image">
+                                            <img src={image3} alt="Nature Image #3" />
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </section> */}
 
+
+
+                            <div className='w-full lg:w-1/2 '>
+                                <h1 class="text-3xl font-bold capitalize">{name}!</h1>
+                                <h1 class="text-2xl my-6 font-bold">Details Describe</h1>
+                                <ul className='liPoint px-4 lg:px-0'>
+                                    {
+                                        describe.map(des => <li className='mt-1'>{des}</li>)
+                                    }
+                                </ul>
+                                {/* <h1 class="text-2xl my-6 font-bold">Tools & Technology:</h1> */}
+                                {/* <ul className='liPoint grid grid-cols-2 gap-x-4'>
+
+                                    {
+                                        technology.map(tech => <li className='mt-1'>{tech}</li>)
+                                    }
+                                </ul> */}
+
+                                <div className='flex justify-start my-4 lg:mt-16'>
+                                    <button onClick={() => { window.open(live_link, "_blank") }} className='btn btn-outline btn-error font-bold hover:text-white mr-4'>live site</button>
+                                    <button onClick={() => { window.open(code_link, "_blank") }} className='btn btn-outline btn-success font-bold text-white'>Code link</button>
+                                </div>
+
+                            </div>
                         </div>
-
                     </div>
 
 
