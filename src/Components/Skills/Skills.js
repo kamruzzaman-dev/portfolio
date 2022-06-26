@@ -4,7 +4,7 @@ import skillBGI from '../../assets/skills.svg';
 import skillImage from '../../assets/profile_photo.png';
 const Skills = () => {
     return (
-        <div className='min-h-screen'>
+        <div className=''>
             <div className='p-5'>
                 <h4 className='text-center'>My Level of Knowledge in some techonology</h4>
                 <h1 className='text-6xl text-center font-bold'>My Skills</h1>

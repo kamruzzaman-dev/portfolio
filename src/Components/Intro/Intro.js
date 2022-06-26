@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from '../../assets/profile_photo.png';
+import zaman from '../../assets/zaman2.png';
 import './intro.css';
 
 const Intro = () => {
@@ -49,8 +50,8 @@ const Intro = () => {
                         </p>
                     </div>
                 </div>
-                <div className='w-full mask mask-circle file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl profileImage-div'>
-                    <img width={400} src={profilePhoto} className="" alt='zaman profile pic' />
+                <div className='w-full file:lg:w-1/2 justify-self-center rounded-lg shadow-3xl profileImage-div '>
+                    <img width={400} src={zaman} className="about-me-image" alt='zaman profile pic' />
                 </div>
             </div>
         </div>
