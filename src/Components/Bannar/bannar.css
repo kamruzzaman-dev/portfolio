@@ -3,6 +3,7 @@
   right: 5rem;
   padding: 1.4rem 1.4rem;
   background-color: rgba(183, 239, 243, 0.459);
+  animation: water-wave 1.5s linear infinite;
 }
 
 .js-icon {
@@ -10,13 +11,16 @@
   right: 12rem;
   padding: 1.4rem 1.4rem;
   background-color: rgba(242, 239, 157, 0.538);
+  animation: water-wave 3s linear infinite;
 }
 
 .css-icon {
   bottom: 15rem;
   left: 4rem;
+  z-index: 2;
   padding: 1.5rem 2rem;
   background-color: rgba(130, 226, 237, 0.384);
+  animation: water-wave 5s linear infinite;
 }
 
 .html-icon {
@@ -25,6 +29,7 @@
   z-index: 2;
   padding: 1.5rem 2rem;
   background-color: rgba(242, 157, 171, 0.592);
+  animation: water-wave 2s linear infinite;
 }
 
 .tailwind-icon {
@@ -33,6 +38,7 @@
   z-index: 2;
   padding: 1.5rem 2rem;
   background-color: rgba(157, 225, 242, 0.592);
+  animation: water-wave 4s linear infinite;
 }
 .bootstrap-icon{
   top: 3rem;
@@ -40,6 +46,7 @@
   z-index: 2;
   padding: .5rem .5rem;
   background-color: rgba(102, 183, 237, 0.499);
+  animation: water-wave 3s linear infinite;
 }
 .mongodb-icon{
   top: 2rem;
@@ -47,13 +54,13 @@
   z-index: 2;
   padding: 2rem 2rem;
   background-color: rgba(102, 237, 156, 0.499);
+  animation: water-wave 2s linear infinite;
 }
 
 .items-icon {
   width: 8rem;
   height: 8rem;
   border-radius: 54% 46% 58% 42% / 62% 43% 57% 38%;
-  animation: water-wave 3s linear infinite;
 }
 
 @keyframes water-wave {
