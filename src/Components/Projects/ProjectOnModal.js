@@ -83,7 +83,7 @@ const ProjectOnModal = ({ showigDetailsProject, setShowigDetailsProject }) => {
                                 <hr />
                             </div>
                         </div>
-                        <label for="ModalDeatilsShowingTigger" class="btn btn-error hidden md:block absolute text-center pt-4 right-5 top-2 my-10 text-white">Close!</label>
+                        <label for="ModalDeatilsShowingTigger" class="btn btn-error hidden md:block absolute text-center pt-4 right-5 top-2 my-10 rounded-lg text-white">X</label>
                     </div>
 
 
