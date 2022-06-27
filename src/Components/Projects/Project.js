@@ -14,7 +14,7 @@ const Project = ({ project,setShowigDetailsProject }) => {
             <div class="card-body">
                 <h2 class="card-title text-center">{name}</h2>
                 {/* <h1>{Type}</h1> */}
-                <p>{id}</p>
+                {/* <p>{id}</p> */}
                 <p>{about}</p>
                 <p>{date}</p>
                 <label onClick={()=>setShowigDetailsProject(project)} for="ModalDeatilsShowingTigger" class="btn btn-error modal-button">show more deatils</label>

@@ -55,61 +55,41 @@ const ProjectOnModal = ({ showigDetailsProject, setShowigDetailsProject }) => {
                     {/* modal content */}
 
                     <div className='main-container-div'>
-                        <div className="hero-content flex-col lg:flex-row-reverse ">
-
+                        <div className="hero-content flex-col lg:flex-row-reverse  relative">
                             <div className='details-card-div details-card-image '>
                                 <img id='silderImage' width={400} src={image1} className="" alt='zaman profile pic' />
                             </div>
-                            {/* <section aria-label="Newest">
-                                <div class="carousel" data-carousel>
-                                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-                                    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-                                    <ul data-slides>
-                                        <li class="slide Photos details-card-div details-card-image" data-active>
-                                        <img src={image1} alt="Nature Image #1" />
-                                        </li>
-                                        <li class="slide Photos details-card-div details-card-image">
-                                        <img src={image2} alt="Nature Image #2" />
-                                        </li>
-                                        <li class="slide Photos details-card-div details-card-image">
-                                            <img src={image3} alt="Nature Image #3" />
-                                        </li>
-                                    </ul>
-                                    </div>
-                                </section> */}
-
-
-
                             <div className='w-full lg:w-1/2 '>
                                 <h1 class="text-3xl font-bold capitalize">{name}!</h1>
-                                <h1 class="text-2xl my-6 font-bold">Details Describe</h1>
+                                <h1 class="text-2xl my-6 font-bold text-red-400 underline">Details Describe</h1>
                                 <ul className='liPoint px-4 lg:px-0'>
                                     {
                                         describe.map(des => <li className='mt-1'>{des}</li>)
                                     }
                                 </ul>
-                                {/* <h1 class="text-2xl my-6 font-bold">Tools & Technology:</h1> */}
-                                {/* <ul className='liPoint grid grid-cols-2 gap-x-4'>
+                                <h1 class="text-2xl my-6 font-bold">Tools & Technology:</h1>
+                                <ul className='liPoint px-4 md:px-0 grid grid-cols-2 gap-x-4'>
 
                                     {
                                         technology.map(tech => <li className='mt-1'>{tech}</li>)
                                     }
-                                </ul> */}
+                                </ul>
 
                                 <div className='flex justify-start my-4 lg:mt-16'>
                                     <button onClick={() => { window.open(live_link, "_blank") }} className='btn btn-outline btn-error font-bold hover:text-white mr-4'>live site</button>
                                     <button onClick={() => { window.open(code_link, "_blank") }} className='btn btn-outline btn-success font-bold text-white'>Code link</button>
                                 </div>
 
+                                <hr />
                             </div>
                         </div>
+                        <label for="ModalDeatilsShowingTigger" class="btn btn-error hidden md:block absolute text-center pt-4 right-5 top-2 my-10 text-white">Close!</label>
                     </div>
 
 
-
                     {/* modal closed button */}
-                    <div class="modal-action fixed md:absolute z-10 right-0 bottom-0 p-4">
-                        <label for="ModalDeatilsShowingTigger" class="btn">Close!</label>
+                    <div class="modal-action fixed md:hidden z-10 right-0 bottom-0 p-4">
+                        <label for="ModalDeatilsShowingTigger" class="btn btn-error text-white">Close!</label>
                     </div>
                 </div>
             </div>
