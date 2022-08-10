@@ -9,10 +9,12 @@ import Skills from './Components/Skills/Skills';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/ContactMe/ContactMe'
 import Bannar from './Components/Bannar/Bannar';
+import { useState } from 'react';
 function App() {
+  const [theme, setTheme] = useState(true)
   return (
-    <div className='max-w-7xl mx-auto'>
-      <Navbar />
+    <div className='' data-theme={theme ? "light" : "dark"}>
+      <Navbar theme={theme} setTheme={setTheme} />
       <Routes>
         <Route path='/' element={<Bannar />}></Route>
         <Route path='/home' element={<Bannar />}></Route>

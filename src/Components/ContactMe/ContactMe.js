@@ -18,9 +18,9 @@ const ContactMe = () => {
                     </div>
                     <div className='flex flex-col w-full'>
                         <input type="text" placeholder="Your Name" className="my-2 input input-bordered input-success w-full max-w-full" />
-                        <input type="text" placeholder="Email Address" className="my-2 input input-bordered input-success w-full max-w-full" />
+                        <input type="email" placeholder="Email Address" className="my-2 input input-bordered input-success w-full max-w-full" />
                         <input type="text" placeholder="Subject" className="my-2 input input-bordered input-success w-full max-w-full" />
-                        <textarea className="my-2 textarea textarea-success" placeholder="Your Message"></textarea>
+                        <textarea className="my-2 textarea textarea-success"  cols='30' rows='6'  placeholder="Your Message"></textarea>
                         <button className='btn btn-error'>Submit</button>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 .react-icon {
-  top: 5rem;
+  top: 4rem;
   right: 5rem;
   padding: 1.4rem 1.4rem;
   background-color: rgba(183, 239, 243, 0.459);
@@ -7,7 +7,7 @@
 }
 
 .js-icon {
-  top: 6rem;
+  top: 5rem;
   right: 12rem;
   padding: 1.4rem 1.4rem;
   background-color: rgba(242, 239, 157, 0.538);
@@ -24,7 +24,7 @@
 }
 
 .html-icon {
-  bottom: 10rem;
+  bottom: 5rem;
   right: 10rem;
   z-index: 2;
   padding: 1.5rem 2rem;
@@ -40,7 +40,8 @@
   background-color: rgba(157, 225, 242, 0.592);
   animation: water-wave 4s linear infinite;
 }
-.bootstrap-icon{
+
+.bootstrap-icon {
   top: 3rem;
   left: 10rem;
   z-index: 2;
@@ -48,7 +49,8 @@
   background-color: rgba(102, 183, 237, 0.499);
   animation: water-wave 3s linear infinite;
 }
-.mongodb-icon{
+
+.mongodb-icon {
   top: 2rem;
   right: 20rem;
   z-index: 2;
@@ -63,6 +65,86 @@
   border-radius: 54% 46% 58% 42% / 62% 43% 57% 38%;
 }
 
+/*  */
+.hero {
+  position: relative;
+}
+
+
+.hero h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero h1 span {
+  color: #ff014f;
+}
+
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff014f;
+}
+
+.hero h2 span {
+  color: black;
+}
+
+.hero p {
+  color: #878e99;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+/* .hero_btn {
+  margin-top: 20%;
+} */
+
+.hero_btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #878e99;
+  font-size: 15px;
+  margin: 30px 0 30px 0;
+}
+
+.hero_btn button {
+  margin-right: 30px;
+}
+
+.hero_btn i {
+  font-size: 20px;
+}
+
+.hero_btn button img {
+  width: 20px;
+  height: 20px;
+}
+
+.right_img {
+  /* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
+  box-shadow: 4px 4px 8px #00000077, -4px -4px 8px #52505046;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 20%;
+}
+
+.hero .right_img img {
+  position: absolute;
+  top: 0;
+  /* right: 10%; */
+  width: 510px;
+}
+
+
+/*  */
 @keyframes water-wave {
   0% {
     border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
@@ -78,7 +160,47 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .items-icon {
-    display: none;
+
+  .hero h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .hero h1 span {
+    color: #ff014f;
+  }
+
+  .hero h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff014f;
+  }
+
+  .hero h2 span {
+    color: black;
+  }
+
+  .hero p {
+    color: #878e99;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 30px;
+  }
+
+  /* .hero_btn {
+  margin-top: 20%;
+} */
+
+  .hero_btn h4 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #878e99;
+    font-size: 15px;
+    margin: 30px 0 30px 0;
   }
 }
