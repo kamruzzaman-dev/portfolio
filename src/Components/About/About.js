@@ -6,12 +6,14 @@ import Resume from '../Resume/Resume';
 import MyServices from '../MyServices/MyServices';
 const About = () => {
    return (
+    <div className=' max-w-7xl mx-auto'>
         <section className="p-2 lg:p-10 bg-slate-200 card shadow-lg my-16 mx-4 lg:mx-10 about-container">
             <Intro/>
             <Resume/>
             <Skills/>
             <MyServices/>
         </section>
+    </div>
     );
 };
 
