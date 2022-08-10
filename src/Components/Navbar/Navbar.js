@@ -24,26 +24,28 @@ const Navbar = ({ theme, setTheme }) => {
 
     </>
     return (
-        <div className="navbar bg-base-100 max-w-7xl mx-auto sticky top-0 z-10 border-b-4 border-red-500  ">
-            <div className="navbar flex justify-between	">
-                <Link to='/' className="btn btn-ghost">
-                   <h1 className='text-4xl'>INTRO</h1>
-                </Link>
-                <div className="dropdown dropdown-end flex items-center">
-                    <label tabIndex="0" className="btn btn-ghost lg:hidden ">
+        <div className=" w-full  bg-base-300 sticky top-0 z-10 border-b-4 border-red-500  ">
+            <div className='max-w-7xl mx-auto navbar '>
+                <div className="navbar flex justify-between	">
+                    <Link to='/' className="btn btn-ghost">
+                        <h1 className='text-4xl'>INTRO</h1>
+                    </Link>
+                    <div className="dropdown dropdown-end flex items-center">
+                        <label tabIndex="0" className="btn btn-ghost lg:hidden ">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            {menuItems}
+                        </ul>
+                    </div>
+                </div>
+                <div className="navbar-end hidden lg:flex w-lg">
+                    <ul className="menu menu-horizontal p-0">
                         {menuItems}
                     </ul>
-                </div>
-            </div>
-            <div className="navbar-end hidden lg:flex w-lg">
-                <ul className="menu menu-horizontal p-0">
-                    {menuItems}
-                </ul>
 
+                </div>
             </div>
         </div>
     );
