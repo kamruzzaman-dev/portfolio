@@ -4,7 +4,7 @@ import skillBGI from '../../assets/skills.svg';
 import skillImage from '../../assets/profile_photo.png';
 const Skills = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto min-h-screen' id='skill'>
             <div className='p-5'>
                 <h4 className='text-center'>My Level of Knowledge in some techonology</h4>
                 <h1 className='text-6xl text-center font-bold'>My Skills</h1>
@@ -16,57 +16,57 @@ const Skills = () => {
                     <div className='w-full card'>
                         <div class="skills bg-base-200">
                             <div class="skill">
-                                <div class="skill-name">HTML</div>
+                                <div class="skill-name"><span className='skill-name-text'>HTML</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="90%" style={{ 'maxWidth': '90%' }}></div>
                                 </div>
                             </div>
 
                             <div class="skill">
-                                <div class="skill-name">CSS</div>
+                                <div class="skill-name"><span className='skill-name-text'>CSS</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="70%" style={{ 'maxWidth': '70%' }}></div>
                                 </div>
                             </div>
 
                             <div class="skill">
-                                <div class="skill-name">Bootstrap</div>
+                                <div class="skill-name"><span className='skill-name-text'>Bootstrap</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="90%" style={{ 'maxWidth': '90%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">tailwind</div>
+                                <div class="skill-name"><span className='skill-name-text'>tailwind</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="85%" style={{ 'maxWidth': '85%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">Javascript</div>
+                                <div class="skill-name"><span className='skill-name-text'>Javascript</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="65%" style={{ 'maxWidth': '65%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">React</div>
+                                <div class="skill-name"><span className='skill-name-text'>React</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="75%" style={{ 'maxWidth': '75%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">node & express</div>
+                                <div class="skill-name"><span className='skill-name-text'>node & express</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="40%" style={{ 'maxWidth': '45%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">MongoDB</div>
+                                <div class="skill-name"><span className='skill-name-text'>MongoDB</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="40%" style={{ 'maxWidth': '40%' }}></div>
                                 </div>
                             </div>
                             <div class="skill">
-                                <div class="skill-name">git and github</div>
+                                <div class="skill-name"><span className='skill-name-text'>git and github</span></div>
                                 <div class="skill-bar">
                                     <div class="skill-per" per="35%" style={{ 'maxWidth': '35%' }}></div>
                                 </div>

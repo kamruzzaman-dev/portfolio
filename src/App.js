@@ -10,6 +10,7 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/ContactMe/ContactMe'
 import Bannar from './Components/Bannar/Bannar';
 import { useState } from 'react';
+import Blog from './Components/Blog/Blog';
 function App() {
   const [theme, setTheme] = useState(true)
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/project' element={<Projects />}></Route>
         <Route path='/skills' element={<Skills />}></Route>
-        <Route path='/testimonial' element={<Testimonial />}></Route>
+        <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='*' element={<PageNotFounded />}></Route>
       </Routes>

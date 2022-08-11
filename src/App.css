@@ -11,7 +11,7 @@
   transition: 0.5s;
 }
 .btn_shadow {
-  box-shadow: 4px 4px 8px #000000, -4px -4px 8px #424040;
+  box-shadow: 2px 2px 4px #00000037, -2px -2px 4px #42404088;
   color: rgb(103, 158, 176);
 }
 .btn_shadow:hover {

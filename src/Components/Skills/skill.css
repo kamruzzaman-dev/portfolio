@@ -11,6 +11,12 @@
   text-transform: uppercase;
   margin: 10px 0;
 }
+.skill-name-text{
+  color: #878e99;
+  font-size: 16px;
+  line-height: 0px;
+  margin-top: 15px;
+}
 
 .skill-bar {
   height: 10px;

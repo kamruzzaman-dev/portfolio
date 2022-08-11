@@ -5,7 +5,7 @@ const Project = ({ project,setShowigDetailsProject }) => {
     const { about, name, date, Type, image1,id } = project;
     // console.log(project);
     return (
-        <div class="card bg-base-100 shadow-xl items-start px-4 pt-10 ">
+        <div class="card bg-base-200 shadow-xl items-start px-4 pt-10 ">
             <figure class="card-header card-image">
                 <img src={image1} alt={name} class="rounded-xl w-full" />
             </figure>
