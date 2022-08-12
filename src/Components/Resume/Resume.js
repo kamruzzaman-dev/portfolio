@@ -6,12 +6,12 @@ const Resume = () => {
             <div className='p-5'>
                 <h4 className='text-center'>Check out My Resume</h4>
                 <h1 className='text-6xl text-center font-bold'>My Resume</h1>
-                <hr className='my-5 bg-red-500 h-1' />
+                <hr className='my-5 bg-primary h-1' />
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-5'>
                 <div>
                     <h1 className='text-3xl font-bold text-center mb-10'>Education</h1>
-                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-indigo-500">
+                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-primary">
                         <div class="card-body">
                             <h2 class="card-title text-2xl">Bachelor Degree's</h2>
                             <div className=''>
@@ -20,7 +20,7 @@ const Resume = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 bg-base-100 shadow-xl border-l-4 border-indigo-500">
+                    <div class="card w-96 bg-base-100 shadow-xl border-l-4 border-primary">
                         <div class="card-body">
                             <h2 class="card-title text-2xl">Higher Secondary Certificate</h2>
                             <div>
@@ -32,17 +32,17 @@ const Resume = () => {
                 </div>
                 <div>
                     <h1 className='text-3xl font-bold text-center mb-10'>Professional Couser & Achievement</h1>
-                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-indigo-500">
+                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-primary">
                         <div class="card-body">
                             <h2 class="card-title text-2xl">International Student Star</h2>
                             <div>
                                 <p className='mb-4 text-md font-bold whitespace-nowrap'>HBUT | 2nd-year (2020-2021)</p>
-                                <p>I got a </p>
+                                <p>link</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-indigo-500">
+                    <div class="card w-96 bg-base-100 shadow-xl my-6 border-l-4 border-primary">
                         <div class="card-body">
                             <h2 class="card-title text-2xl">Web development</h2>
                             <div>

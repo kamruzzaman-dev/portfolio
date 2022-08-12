@@ -15,8 +15,15 @@
 }
 
 .project-navber li:hover{
-    background-color: #2563eb;
-    border-radius: 3px;
-    color: white;
     cursor: pointer;
 }
+
+.project-navber li p { display:inline-block; margin:0;text-transform:uppercase; }
+.project-navber li p:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #ff014f;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.project-navber li p:hover:after { transform: scaleX(1); }

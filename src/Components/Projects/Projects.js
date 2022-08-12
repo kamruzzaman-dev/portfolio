@@ -1,3 +1,4 @@
+import { hover } from '@testing-library/user-event/dist/hover';
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Project from './Project';
@@ -41,19 +42,21 @@ const Projects = () => {
     return (
         <div className='max-w-7xl mx-auto'>
             <div className='min-h-screen '>
-                <p className='mt-10 text-xl text-center capitalize'>showcasing some of my best work</p>
-                <h1 className='mt-5 text-3xl font-bold text-center'>My <span className='text-red-500'>Portfolio</span></h1>
-
+                <div className='p-0'>
+                    <h4 className='text-center'>showcasing some of my best work</h4>
+                    <h1 className='mt-0 text-6xl  font-bold text-center'>My <span className='text-primary'>Portfolio</span></h1>
+                    <hr className='mt-5 bg-primary h-1' />
+                </div>
                 {/* navbar section */}
-                <div class="flex items-center justify-center bg-base-100 px-4">
+                <div class="flex items-center mb-8 justify-center bg-base-100 px-4">
                     <div class="">
                         <ul class="project-navber p-0">
-                            <li><p onClick={allprojectShowing} style={{ color: searchType === 'all' ? "tomato" : "" }}>All</p></li>
-                            <li><p onClick={() => { showingProject('html') }} style={{ color: searchType === 'html' ? "tomato" : "" }}>HTML&CSS</p></li>
-                            <li><p onClick={() => { showingProject('dom') }} style={{ color: searchType === 'dom' ? "tomato" : "" }}>DOM</p></li>
-                            <li><p onClick={() => { showingProject('react') }} style={{ color: searchType === 'react' ? "tomato" : "" }}>Front-end(FrameWork)</p></li>
-                            <li><p onClick={() => { showingProject('frontEnd') }} style={{ color: searchType === 'frontEnd' ? "tomato" : "" }}>Front-end(react)</p></li>
-                            <li><p onClick={() => { showingProject('fullStack') }} style={{ color: searchType === 'fullStack' ? "tomato" : "" }}>Full-Stack</p></li>
+                            <li><p className='fromCenter' onClick={allprojectShowing} style={{ color: searchType === 'all' ? "#ff014f" : ""}}>All</p></li>
+                            <li><p className='fromCenter' onClick={() => { showingProject('html') }} style={{ color: searchType === 'html' ? "#ff014f" : "" }}>HTML&CSS</p></li>
+                            <li><p className='fromCenter' onClick={() => { showingProject('dom') }} style={{ color: searchType === 'dom' ? "#ff014f" : "" }}>DOM</p></li>
+                            <li><p className='fromCenter' onClick={() => { showingProject('react') }} style={{ color: searchType === 'react' ? "#ff014f" : "" }}>Front-end(FrameWork)</p></li>
+                            <li><p className='fromCenter' onClick={() => { showingProject('frontEnd') }} style={{ color: searchType === 'frontEnd' ? "#ff014f" : "" }}>Front-end(react)</p></li>
+                            <li><p className='fromCenter' onClick={() => { showingProject('fullStack') }} style={{ color: searchType === 'fullStack' ? "#ff014f" : "" }}>Full-Stack</p></li>
                         </ul>
                     </div>
                 </div>
